@@ -27,7 +27,7 @@ function App() {
         let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
         let day = days[d.getDay()];
         let date = d.getDate();
-        let month = d.getMonth();
+        let month = months[d.getMonth()];
         let year = d.getFullYear();
 
         return `${day} ${date} ${month} ${year}`
